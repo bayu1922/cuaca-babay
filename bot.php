@@ -76,7 +76,7 @@ if ($type == 'join' || $command == '/menu') {
 
 //pesan bergambar
 if($message['type']=='text') {
-	    if ($command == '/cuaca') {
+	    if ($command == 'cuaca') {
 
         $result = cuaca($options);
         $balas = array(
